@@ -1,0 +1,12 @@
+node_modules/
+.next/
+dist/
+*.local
+.env
+.env.local
+.env.production
+*.log
+.next
+.cache
+turbo.json
+!.env.example

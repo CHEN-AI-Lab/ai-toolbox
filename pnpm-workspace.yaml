@@ -1,0 +1,10 @@
+packages:
+  - 'shared'
+  - 'apps/*'
+  - 'packages/*'
+
+onlyBuiltDependencies:
+  - unrs-resolver
+
+allowBuilds:
+  unrs-resolver: true

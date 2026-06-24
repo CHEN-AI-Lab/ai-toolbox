@@ -1,0 +1,17 @@
+{
+  "name": "ai-toolbox",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter apps-web dev",
+    "build": "pnpm --filter apps-web build",
+    "start": "pnpm --filter apps-web start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "typecheck": "tsc --noEmit --project apps/web/tsconfig.json",
+    "check": "bash scripts/check.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

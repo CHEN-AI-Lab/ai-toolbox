@@ -8,6 +8,8 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:ui": "vitest --ui",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
     "typecheck": "tsc --noEmit --project apps/web/tsconfig.json",
     "check": "bash scripts/check.sh"
   },
